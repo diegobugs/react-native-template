@@ -1,6 +1,0 @@
-module Pods_DemoRNTemplate_DemoRNTemplateTests {
-  umbrella header "Pods-DemoRNTemplate-DemoRNTemplateTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
