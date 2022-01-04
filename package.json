@@ -1,0 +1,8 @@
+{
+  "name": "DemoRNTemplate",
+  "version": "1.0.0",
+  "description": "React Native Template",
+  "repository": "https://github.com/diegobugs/demo-react-native-template-ts.git",
+  "author": "Diego Bugs <diego.f.bugs@gmail.com>",
+  "license": "MIT"
+}
