@@ -12,6 +12,7 @@ import {
   REHYDRATE,
 } from "redux-persist";
 
+import { settingsReducer } from "../Settings";
 import { reduxStorage } from "./reduxStorage";
 
 export type RootStoreType = ReturnType<typeof rootReducer>;
@@ -25,6 +26,7 @@ const persistanceConfiguration = {
 export const rootReducer = combineReducers({
   // Place reducers in this section
   // I.e: settings: settingsReducer,
+  settings: settingsReducer,
 });
 
 const persistedReducer = persistReducer(persistanceConfiguration, rootReducer);
