@@ -1,4 +1,7 @@
 
+<p align="center">
+<img alt="React Native Template" src="https://user-images.githubusercontent.com/18753861/152808707-639c2582-a945-4f25-b289-74c7b3d0fc3b.png" />
+</p>
 
 <h1 align="center">
   React Native Template
@@ -66,4 +69,4 @@ src
 This project is MIT licensed.
 
 React Native Template image by
-<a href="https://www.freepik.com/vectors/abstract">Abstract vector created by vectorjuice - www.freepik.com</a>
+<a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Dreamstale - Flaticon</a>
