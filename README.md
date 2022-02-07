@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="React Native Template is released under the MIT license." />
   </a>
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/diegobugs/react-native-template">
-  <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/diegobugs/react-native-template/total">
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/downloads/diegobugs/react-native-template/latest/total">
   <img alt="GitHub forks" src="https://img.shields.io/github/forks/diegobugs/react-native-template?style=social">
 </p>
 
