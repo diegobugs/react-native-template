@@ -1,6 +1,17 @@
+
+
 <h1 align="center">
   React Native Template
 </h1>
+
+<p align="center">
+  <a href="https://github.com/diegobugs/react-native-template/blob/HEAD/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="React Native Template is released under the MIT license." />
+  </a>
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/diegobugs/react-native-template">
+  <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/diegobugs/react-native-template/total">
+  <img alt="GitHub forks" src="https://img.shields.io/github/forks/diegobugs/react-native-template?style=social">
+</p>
 
 📱 A template for your next React Native projects.
 It is prepared with some of my basics dependencies and cool features: Typescript, react-navigation, Redux toolkit, Redux persist using MMKV.
@@ -53,3 +64,6 @@ src
 ### 🔖 License
 
 This project is MIT licensed.
+
+React Native Template image by
+<a href="https://www.freepik.com/vectors/abstract">Abstract vector created by vectorjuice - www.freepik.com</a>
