@@ -1,8 +1,8 @@
 {
-  "name": "demo-react-native-template-ts",
+  "name": "react-native-template",
   "version": "1.0.0",
   "description": "React Native Template",
-  "repository": "https://github.com/diegobugs/demo-react-native-template-ts.git",
+  "repository": "https://github.com/diegobugs/react-native-template.git",
   "author": "Diego Bugs <diego.f.bugs@gmail.com>",
   "license": "MIT"
 }
