@@ -1,6 +1,6 @@
 {
-  "name": "DemoRNTemplate",
-  "version": "0.0.1",
+  "name": "RNTemplate",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
