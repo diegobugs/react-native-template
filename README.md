@@ -33,6 +33,12 @@ Start your project using my template by running this command:
 npx react-native init SomeApp --template https://github.com/diegobugs/react-native-template.git
 ```
 
+#### To install an older version
+
+```shell
+npx react-native init SomeApp --template https://github.com/diegobugs/react-native-template.git#VERSION
+```
+
 Project structure
 
 ```sh
