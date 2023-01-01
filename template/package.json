@@ -1,10 +1,12 @@
 {
   "name": "RNTemplate",
-  "version": "1.9.0",
+  "version": "1.10.0-rc.5",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "android:release": "react-native run-android --configuration Release",
+    "ios:release": "react-native run-ios --configuration Release",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
