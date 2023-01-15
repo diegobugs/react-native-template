@@ -22,8 +22,8 @@ const Theme: ThemeType = {
   ...DefaultTheme,
   colors: {
     ...DefaultTheme.colors,
-    primary: 'rgb(255, 45, 85)',
-    background: 'rgb(123, 242, 242)',
+    primary: '#7A42DE',
+    background: '#FFFFFF',
     card: 'rgb(255, 255, 255)',
     text: 'rgb(28, 28, 30)',
     border: 'rgb(199, 199, 204)',
@@ -34,7 +34,7 @@ const Theme: ThemeType = {
     primaryContrast: '#FFFFFF',
     rejected: '#C70B6F',
     rejectedContrast: '#FFFFFF',
-    secondary: '#ECE8E0',
+    secondary: '#5997FA',
     secondaryContrast: '#353535',
     success: '#0BC7C1',
     successContrast: '#FFFFFF',
@@ -47,7 +47,7 @@ const DarkTheme: ThemeType = {
   ...RNDarkTheme,
   colors: {
     ...RNDarkTheme.colors,
-    primary: 'rgb(255, 45, 85)',
+    primary: '#7A42DE',
     background: 'rgb(123, 123, 122)',
     card: 'rgb(255, 255, 255)',
     text: 'rgb(28, 28, 30)',
