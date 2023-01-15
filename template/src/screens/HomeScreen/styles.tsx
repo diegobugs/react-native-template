@@ -9,6 +9,8 @@ interface Styles {
 export const styles = StyleSheet.create<Styles>({
   container: theme => ({
     flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
     backgroundColor: theme.colors.background,
   }),
 });
