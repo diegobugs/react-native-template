@@ -1,2 +1,2 @@
-export { store, persistor } from "./store";
-export type { RootStoreType } from "./store";
+export { store, persistor } from './store';
+export type { RootStoreType } from './store';
