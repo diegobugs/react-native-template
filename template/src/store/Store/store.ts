@@ -1,5 +1,5 @@
-import { configureStore } from "@reduxjs/toolkit";
-import { combineReducers } from "redux";
+import { configureStore } from '@reduxjs/toolkit';
+import { combineReducers } from 'redux';
 
 import {
   FLUSH,
@@ -10,16 +10,16 @@ import {
   PURGE,
   REGISTER,
   REHYDRATE,
-} from "redux-persist";
+} from 'redux-persist';
 
-import { settingsReducer } from "../Settings";
-import { reduxStorage } from "./reduxStorage";
+import { settingsReducer } from '../Settings';
+import { reduxStorage } from './reduxStorage';
 
 export type RootStoreType = ReturnType<typeof rootReducer>;
 
 const persistanceConfiguration = {
-  key: "root",
-  blacklist: ["navigation"],
+  key: 'root',
+  blacklist: ['navigation'],
   storage: reduxStorage,
 };
 
@@ -33,7 +33,7 @@ const persistedReducer = persistReducer(persistanceConfiguration, rootReducer);
 
 export const store = configureStore({
   reducer: persistedReducer,
-  middleware: (getDefaultMiddleware) =>
+  middleware: getDefaultMiddleware =>
     getDefaultMiddleware({
       serializableCheck: {
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
