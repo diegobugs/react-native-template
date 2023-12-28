@@ -8,18 +8,18 @@
  * @format
  */
 
-import React, { FunctionComponent } from "react";
-import { StatusBar, useColorScheme } from "react-native";
+import React, { FunctionComponent } from 'react';
+import { StatusBar, useColorScheme } from 'react-native';
 
-import { NavigationContainer } from "@react-navigation/native";
-import { MainNavigator } from "@navigator";
-import { Theme, DarkTheme } from "@utils";
-import { Provider } from "react-redux";
-import { store, persistor } from "@store";
-import { PersistGate } from "redux-persist/integration/react";
+import { NavigationContainer } from '@react-navigation/native';
+import { MainNavigator } from '@navigator';
+import { Theme, DarkTheme } from '@utils';
+import { Provider } from 'react-redux';
+import { store, persistor } from '@store';
+import { PersistGate } from 'redux-persist/integration/react';
 
-const App: FunctionComponent<JSX.Element> = () => {
-  const isDarkMode = useColorScheme() === "dark";
+const App: FunctionComponent<React.JSX.Element> = () => {
+  const isDarkMode = useColorScheme() === 'dark';
 
   return (
     <Provider store={store}>
