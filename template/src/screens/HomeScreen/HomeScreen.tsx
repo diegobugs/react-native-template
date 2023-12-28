@@ -10,6 +10,7 @@ interface HomeScreenProps {
   navigation: NavigationProp<MainStackParamList, 'Home'>;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const HomeScreen = ({ navigation }: HomeScreenProps) => {
   const theme = useTheme() as ThemeType;
   const logo = require('@images/logo.png');

@@ -1,13 +1,13 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-import { SettingsReducer } from "./types";
+import { SettingsReducer } from './types';
 
 const initialState: SettingsReducer = {
   firstAppRun: false,
 };
 
 const settingsSlice = createSlice({
-  name: "settings",
+  name: 'settings',
   initialState,
   reducers: {
     setSettings: (state, action: PayloadAction<SettingsReducer>) => ({
