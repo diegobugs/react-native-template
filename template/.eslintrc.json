@@ -21,5 +21,10 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "react-native", "@typescript-eslint"]
+  "plugins": ["react", "react-native", "@typescript-eslint"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }
